@@ -23,7 +23,7 @@ jobs:
       # Build image
       - name: Build image
         run: docker build -t pullrequestimage . 
-      # run the image (but supply the TESTNAME in stead of MASTERNAME, so the 
+      # run the image (but supply the TEST_NAME instead of MASTER_NAME, so the 
       # app ends up in a different place.   
       - name: execute
         run: >
@@ -31,5 +31,5 @@ jobs:
           -e SHINY_ACC_NAME=${{secrets.SHINY_ACC_NAME}} 
           -e TOKEN=${{secrets.TOKEN}} 
           -e SECRET=${{secrets.SECRET}} 
-          -e MASTERNAME=${{secrets.TEST_NAME}} 
+          -e MASTER_NAME=${{secrets.TEST_NAME}} 
           pullrequestimage
