@@ -1,4 +1,5 @@
 library(rsconnect)
+library(partnR)
 
 # Print a list of app dependencies. Libraries need to be loaded
 # before publishing so deployApp() knows what is necessary.
@@ -16,7 +17,4 @@ setAccountInfo(name   = error_on_missing_name("SHINY_ACC_NAME"),
                secret = error_on_missing_name("SECRET"))
 
 # Deploy the application.
-deployApp(
-    appFiles = NULL,
-    appName = error_on_missing_name("MASTERNAME")
-)
+deployApp(appName = error_on_missing_name("MASTERNAME"))
