@@ -22,10 +22,10 @@
     },
     "DT": {
       "Package": "DT",
-      "Version": "0.16",
+      "Version": "0.17",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "acac794cc3e393ca65f916e5ced5c1d2"
+      "Hash": "56b33b77f4cffd78ff96b8e5a69eabb0"
     },
     "R6": {
       "Package": "R6",
@@ -155,10 +155,10 @@
     },
     "crosstalk": {
       "Package": "crosstalk",
-      "Version": "1.1.0.1",
+      "Version": "1.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ae55f5d7c02f0ab43c58dd050694f2b4"
+      "Hash": "2b06f9e415a62b6762e4b8098d2aecbc"
     },
     "curl": {
       "Package": "curl",
@@ -295,10 +295,10 @@
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
-      "Version": "1.5.2",
+      "Version": "1.5.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0aaf56b7960bb066646e1868cadcaf07"
+      "Hash": "6fdaa86d0700f8b3e92ee3c445a5a10d"
     },
     "httpuv": {
       "Package": "httpuv",
@@ -379,10 +379,10 @@
     },
     "memoise": {
       "Package": "memoise",
-      "Version": "1.1.0",
+      "Version": "2.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "58baa74e4603fcfb9a94401c58c8f9b1"
+      "Hash": "a0bc51650201a56d00a4798523cc91b3"
     },
     "mime": {
       "Package": "mime",
@@ -400,10 +400,10 @@
     },
     "packrat": {
       "Package": "packrat",
-      "Version": "0.6.0",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0d6cc4c357e7602bb3eee299f4cfc2a5"
+      "Hash": "2ebd34a38f4248281096cc723535b66d"
     },
     "parsedate": {
       "Package": "parsedate",
@@ -411,6 +411,12 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "9ab1426429ad716b42088a0fd8e909ee"
+    },
+    "partnR": {
+      "Package": "partnR",
+      "Version": "0.0.0.9000",
+      "Source": "unknown",
+      "Hash": "ea905150784f31971df5ac51411f981e"
     },
     "pillar": {
       "Package": "pillar",
@@ -568,10 +574,10 @@
     },
     "rsconnect": {
       "Package": "rsconnect",
-      "Version": "0.8.17",
+      "Version": "0.8.16",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2613a231f28dc5ea0d0d80d6268fced3"
+      "Hash": "3924a1c20ce2479e89a08b0ca4c936c6"
     },
     "rstudioapi": {
       "Package": "rstudioapi",
@@ -722,10 +728,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.22",
+      "Version": "0.21",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "eab2f8ba53809c321813e72ecbbd19ba"
+      "Hash": "f3ddcca198959a42e8cb6b06c30d4f1e"
     },
     "xml2": {
       "Package": "xml2",

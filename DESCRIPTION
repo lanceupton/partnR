@@ -10,8 +10,10 @@ Imports:
     glue,
     golem,
     htmltools,
+    packrat,
     pkgload,
     processx,
+    renv,
     shiny,
     shinyMobile
 Encoding: UTF-8
