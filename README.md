@@ -7,6 +7,7 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/lanceupton/partnR/workflows/R-CMD-check/badge.svg)](https://github.com/lanceupton/partnR/actions)
 <!-- badges: end -->
 
 Your new workout partner.
@@ -30,11 +31,11 @@ By contributing to this project, you agree to abide by its terms.
 
 ## Acknowlegements
 
--   Thanks to [Roel Hogervorst](https://github.com/RMHogervorst) for his
+  - Thanks to [Roel Hogervorst](https://github.com/RMHogervorst) for his
     excellent [example
     implementation](https://github.com/RMHogervorst/testshiny) of the
     auto-deployment to shinyapps.io via Github Actions
 
--   Thanks to
+  - Thanks to
     [Onebridge](https://www.linkedin.com/company/onebridgetech) for
     investing in the development of this submission
