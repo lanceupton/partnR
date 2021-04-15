@@ -55,6 +55,13 @@
       "Repository": "CRAN",
       "Hash": "50c838a310445e954bc13f26f26a6ecf"
     },
+    "attempt": {
+      "Package": "attempt",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d7421bb5dfeb2676b9e4a5a60c2fcfd2"
+    },
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
