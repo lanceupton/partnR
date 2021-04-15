@@ -12,6 +12,7 @@ Imports:
     rlang,
     pkgload,
     processx,
+    rsconnect,
     shiny,
     shinyMobile,
     testthat
