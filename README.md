@@ -1,38 +1,40 @@
-## Auto deploying an app to shinyapps.io
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-This is the demo shiny app and is very lame, but the major point is 
-the github actions that are used here to deploy after each commit in main/master.
-and ends up at `https://rmhogervorst.shinyapps.io/mastershiny/`
-AND it deploys at every PR and pushes to a different app. `https://rmhogervorst.shinyapps.io/testshiny/`
+# partnR
 
-This current version is pretty ugly, but it works. 
+<!-- badges: start -->
 
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
 
+Your new workout partner.
 
-In your github repo set up your secrets SHINY_ACC_NAME, TOKEN,SECRET,MASTERNAME, and TESTNAME.
+## Installation
 
-In your local .Renviron file 
+You can install the development version of partnR from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("lanceupton/partnR")
 ```
-SHINY_ACC_NAME="youraccountname"
-TOKEN="atokenyougotfromshinyapps.io"
-SECRET="asecretyourecievedfromshinyapps.io"
-MASTERNAME="thiswillbethelastpartoftheurl"
-TESTNAME="thiswillbethelastpartoftheurl"
-```
 
-Your master/main url will be `https://{SHINY_ACC_NAME}.shinyapps.io/{MASTERNAME}/`
-and for PRs the URL will be `https://{SHINY_ACC_NAME}.shinyapps.io/{TESTNAME}/`
+## Code of Conduct
 
-Set secrets in github in repository secrets
-![](howtosecrets.png)
+Please note that the partnR project is released with a [Contributor Code
+of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
 
+## Acknowlegements
 
+-   Thanks to [Roel Hogervorst](https://github.com/RMHogervorst) for his
+    excellent [example
+    implementation](https://github.com/RMHogervorst/testshiny) of the
+    auto-deployment to shinyapps.io via Github Actions
 
-test docker image locally with 
-
-```
-IMAGENAME=<NAMETHISSOMETHING>
-docker build -t $IMAGENAME . 
-docker run --env-file .Renviron $IMAGENAME
-```
+-   Thanks to
+    [Onebridge](https://www.linkedin.com/company/onebridgetech) for
+    investing in the development of this submission
