@@ -18,5 +18,5 @@ setAccountInfo(name   = error_on_missing_name("SHINY_ACC_NAME"),
 # Deploy the application.
 deployApp(
     appFiles = NULL,
-    appName = error_on_missing_name("MASTER_NAME")
+    appName = error_on_missing_name("MASTERNAME")
 )
