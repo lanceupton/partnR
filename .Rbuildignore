@@ -5,6 +5,7 @@
 ^\.gitignore$
 ^\.Renviron$
 ^\.Rproj\.user$
+^app\.R$
 ^CODE_OF_CONDUCT\.md$
 ^data-raw$
 ^deploy\.R$
