@@ -3,6 +3,8 @@
 ^\.gitignore$
 ^\.Renviron$
 ^\.Rproj\.user$
+^\.Rprofile$
+^app\.R$
 ^CODE_OF_CONDUCT\.md$
 ^data-raw$
 ^deploy\.R$
@@ -11,4 +13,6 @@
 ^NEWS\.md$
 ^partnR\.Rproj$
 ^README\.Rmd$
+^renv$
+^renv\.lock$
 ^rsconnect$
