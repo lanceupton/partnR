@@ -5,7 +5,7 @@ account: lanceupton
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3959922
-bundleId: 4473477
+bundleId: 4473502
 url: https://lanceupton.shinyapps.io/partnR/
-when: 1618462685.86877
-lastSyncTime: 1618462685.86877
+when: 1618463102.74481
+lastSyncTime: 1618463102.74481
