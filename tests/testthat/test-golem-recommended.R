@@ -1,6 +1,6 @@
 test_that("app ui", {
   ui <- app_ui()
-  golem::expect_shinytaglist(ui)
+  expect_shinytaglist(ui)
   # Check that formals have not been removed
   fmls <- formals(app_ui)
   for (i in c("request")){
@@ -21,6 +21,6 @@ test_that("app server", {
 # Configure this test to fit your need
 test_that(
   "app launches",{
-    golem::expect_running(sleep = 5)
+    expect_running(sleep = 5)
   }
 )
