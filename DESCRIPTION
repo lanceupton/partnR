@@ -7,12 +7,10 @@ License: file LICENSE
 Imports: 
     attempt,
     config,
-    glue,
     golem,
     htmltools,
     pkgload,
     processx,
-    renv,
     shiny,
     shinyMobile
 Encoding: UTF-8
