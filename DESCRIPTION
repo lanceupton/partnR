@@ -5,7 +5,6 @@ Description: Your new workout partner.
 Authors@R: person('Lance', 'Upton', email = 'lance.upton@gmail.com', role = c('cre', 'aut'), comment = c(ORCID = '0000-0002-9110-5160'))
 License: file LICENSE
 Imports: 
-    attempt,
     config,
     glue,
     golem,
