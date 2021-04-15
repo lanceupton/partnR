@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 .Renviron
+partnR.Rcheck/
+partnR*.tar.gz
+partnR*.tgz
