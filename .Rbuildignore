@@ -11,6 +11,6 @@
 ^dev$
 ^Dockerfile$
 ^NEWS\.md$
+^partnR\.Rproj$
 ^README\.Rmd$
 ^rsconnect$
-^.*\.Rproj$
