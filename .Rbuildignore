@@ -1,5 +1,3 @@
-^renv$
-^renv\.lock$
 ^\.git$
 ^\.github$
 ^\.gitignore$
@@ -11,6 +9,6 @@
 ^dev$
 ^Dockerfile$
 ^NEWS\.md$
+^partnR\.Rproj$
 ^README\.Rmd$
 ^rsconnect$
-^.*\.Rproj$
