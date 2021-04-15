@@ -4,11 +4,11 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "http://package-proxy/focal"
+        "URL": "https://cran.rstudio.org"
       },
       {
         "Name": "RSPM",
-        "URL": "http://cran.rstudio.org"
+        "URL": "https://cran.rstudio.org"
       }
     ]
   },
@@ -267,15 +267,10 @@
     },
     "golem": {
       "Package": "golem",
-      "Version": "0.3.0",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "ThinkR-open",
-      "RemoteRepo": "golem",
-      "RemoteRef": "dev",
-      "RemoteSha": "1e575ba757e4d3773a894f96ec0deab2a45dad1d",
-      "Hash": "9036c549c1f3e884082e46cb05cf6ce8"
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e3c3f5f3fc65ecdbb2407ea5e0848e4f"
     },
     "here": {
       "Package": "here",
