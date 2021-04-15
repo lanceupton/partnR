@@ -10,7 +10,6 @@ Imports:
     glue,
     golem,
     htmltools,
-    packrat,
     pkgload,
     processx,
     renv,
