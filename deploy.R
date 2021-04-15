@@ -1,5 +1,4 @@
 library(rsconnect)
-library(partnR)
 
 # Print a list of app dependencies. Libraries need to be loaded
 # before publishing so deployApp() knows what is necessary.
