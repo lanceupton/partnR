@@ -10,7 +10,3 @@ golem::document_and_reload()
 
 # Run the application
 run_app()
-
-# TO DEPLOY TO SHINYAPPS:
-# TODO: Set up github actions script to automate this
-# rsconnect::deployApp(appName = "partnR")
