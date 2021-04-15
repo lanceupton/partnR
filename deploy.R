@@ -15,8 +15,15 @@ setAccountInfo(name   = error_on_missing_name("SHINY_ACC_NAME"),
                token  = error_on_missing_name("TOKEN"),
                secret = error_on_missing_name("SECRET"))
 
+# Files to include in build
+appFiles <- list.files()
+to_ignore <- readLines(".Rbuildignore")
+to_ignore <- grep(paste(to_ignore, collapse = "|"), appFiles)
+appFiles <- appFiles[-to_ignore]
+appFiles <- setdiff(appFiles, "renv")
+
 # Deploy the application.
 deployApp(
-    appFiles = NULL,
+    appFiles = appFiles,
     appName = error_on_missing_name("MASTER_NAME")
 )
