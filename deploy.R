@@ -16,4 +16,7 @@ setAccountInfo(name   = error_on_missing_name("SHINY_ACC_NAME"),
                secret = error_on_missing_name("SECRET"))
 
 # Deploy the application.
-deployApp(appName = error_on_missing_name("MASTERNAME"))
+deployApp(
+    appFiles = setdiff(list.files(), "renv"),
+    appName = error_on_missing_name("MASTER_NAME")
+)
