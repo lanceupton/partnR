@@ -412,12 +412,6 @@
       "Repository": "CRAN",
       "Hash": "9ab1426429ad716b42088a0fd8e909ee"
     },
-    "partnR": {
-      "Package": "partnR",
-      "Version": "0.0.0.9000",
-      "Source": "unknown",
-      "Hash": "ea905150784f31971df5ac51411f981e"
-    },
     "pillar": {
       "Package": "pillar",
       "Version": "1.5.1",
