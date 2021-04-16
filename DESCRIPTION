@@ -10,6 +10,7 @@ Imports:
     golem,
     htmltools,
     rlang,
+    packrat,
     pkgload,
     processx,
     rsconnect,

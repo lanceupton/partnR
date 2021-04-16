@@ -47,8 +47,9 @@ jobs:
       - name: Deploy to shinyapps.io
         if: github.ref == 'refs/heads/master'
         env:
-          SHINYAPPS_ACCOUNT: ${{ secrets.SHINY_ACC_NAME }}
-          SHINYAPPS_TOKEN: ${{ secrets.TOKEN }}
-          SHINYAPPS_SECRET: ${{ secrets.SECRET }}
-          MASTER_NAME: ${{secrets.MASTER_NAME}}
+          SHINY_ACC_NAME: ${{ secrets.SHINY_ACC_NAME }}
+          TOKEN: ${{ secrets.TOKEN }}
+          SECRET: ${{ secrets.SECRET }}
+          MASTER_NAME: ${{ secrets.MASTER_NAME }}
+          
         run: Rscript deploy.R
