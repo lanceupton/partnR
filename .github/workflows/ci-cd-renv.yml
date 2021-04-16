@@ -10,7 +10,7 @@ jobs:
   CI-CD:
     runs-on: ubuntu-latest
     env:
-      RENV_PATHS_ROOT: ~/.local/share/renv
+      RENV_PATHS_ROOT: ~/.local/share/renv/library
 
     steps:
 
