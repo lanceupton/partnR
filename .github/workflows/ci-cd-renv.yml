@@ -6,12 +6,16 @@ name: CI-CD
 
 # renv with GitHub actions: https://rstudio.github.io/renv/articles/ci.html#github-actions
 
+
+
+
 jobs:
   CI-CD:
     runs-on: ubuntu-latest
+    
     env:
-      RENV_PATHS_ROOT: renv
-
+      RENV_PATHS_ROOT: ~/.local/share/renv
+      
     steps:
 
       - uses: actions/checkout@v2
@@ -36,7 +40,9 @@ jobs:
 
       - name: Restore packages
         shell: Rscript {0}
-        run: renv::restore()
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
 
       - name: Check package
         shell: Rscript {0}
